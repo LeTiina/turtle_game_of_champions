@@ -36,7 +36,6 @@ winning_color = ''
 for s in range(0,6):
     if list_of_turtles[s] == winner_turtle:
         winning_color = list_of_turtle_colors[s]
-print(winner_turtle)
 if user_selection_of_turtle == winner_turtle:
     print(f'You selected {user_selection_of_turtle} turtle')
     print(f'Wow! You got it right! {winning_color} turtle won')
